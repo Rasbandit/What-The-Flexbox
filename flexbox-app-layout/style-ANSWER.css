@@ -91,7 +91,7 @@ a.button {
 
 
 /*
-  Everything So far is Cosmetic styling 
+  Everything So far is Cosmetic styling
 
   Flexbox + Important CSS Starts Here
 
@@ -132,7 +132,7 @@ a.button {
 }
 
 /*
-  Icon Bar 
+  Icon Bar
 */
 
 .icon-bar {
@@ -140,5 +140,6 @@ a.button {
 }
 
 .icon-bar a {
+  height: 100%;
   flex:1;
 }

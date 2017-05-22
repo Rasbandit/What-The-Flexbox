@@ -11,6 +11,8 @@ body {
   font-family: sans-serif;
   margin: 0;
   background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  height: 200vh;
+  border: 1px red solid
 }
 
 a {
@@ -57,6 +59,33 @@ a {
 
 .pricing-grid {
   max-width:750px;
+  height: 100%;
   margin: 0 auto;
-  
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px green solid;
+}
+
+.plan {
+  background:rgba(255,255,255,0.2);
+  /*margin: 20px;
+  padding: 20px;*/
+  border-radius: 4px;
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  /*flex: 1 1 500px;*/
+}
+
+.plan > * {
+  flex: 1 1 100%;
+}
+
+.plan .cta {
+  align-self: flex-end;
 }
